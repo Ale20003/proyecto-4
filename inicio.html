@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Taller makween</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src='main.js'></script>
+</head>
+
+<body class="body">
+
+    <datalist id="listabusqueda">
+        <option value="Motos"></option>
+        <option value="Autos"></option>
+        <option value="Reseña"></option>
+    </datalist>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="inicio.html">
+                            <img src="logo/logo_taller.png" alt="" width="70" height="48" class="d-inline-block">
+                            Taller Makween
+                        </a>
+                    </div>
+                </nav>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="autos.html">Autos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="motos.html">Motos</a>
+                        </li>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-3" type="search" placeholder="Buscar" aria-label="Buscar"
+                                list="listabusqueda">
+                            <button class="btn-outline-success buscador" type="submit">Buscar</button>
+                        </form>
+                    </ul>
+                    <a class="navbar-brand" href="login.html">
+                        <img src="img/273-2738704_user-login-png-transparent-logo-twitter-blanco-png.png" alt="login"
+                            width="" height="50" class="d-inline-block">
+                        <br>
+                        Login
+                    </a>    
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container"><br>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="reseñas.html">
+                            <img src="gift/mecanico-chambiando.gif" class="d-block w-100" width="1000px" height="750px">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="color texto">¡Nuestros mecanicos trabajando!</h5>
+                            <p class="color texto">El trabajo duro representa a Taller Makween</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="autos.html">
+                            <img src="img/inicio_autos.jpg" class="d-block w-100" width="1000px" height="750px">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="color texto">Ford mustang</h5>
+                            <p class="color texto">La restauracion total de un ford mustang con rediseño personalizado
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="motos.html">
+                            <img src="img/inicio_moto.jpg" class="d-block w-100" width="1000px" height="750">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="color texto">Honda</h5>
+                            <p class="color texto">Restauracion de una moto honda con rediseño total</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="container">
+            <br><br>
+            <div class="row">
+                <div class="col">
+                    <div>
+                        <a href="motos.html">
+                            <center>
+                                <img src="img/moto_card.jpg" width="301px" height="301px"><br>
+                                <a href="motos.html" class="linkcard">motos</a>
+                            </center>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <a href="reseñas.html">
+                            <center>
+                                <img src="img/reseña_card.webp" width="301" height="301"><br>
+                                <a href="reseñas.html" class="linkcard">Reseñas</a>
+                            </center>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <a href="autos.html">
+                            <center>
+                                <img src="img/auto_card.jpg " width="301" height="301"><br>
+                                <a href="autos.html" class="linkcard">Autos</a>
+                            </center>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<br>
+    <footer>
+        <div class="container">
+            <hr class="color">
+            <a href="contacto.html">
+                <p>
+                    Contactanos
+                </p>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
